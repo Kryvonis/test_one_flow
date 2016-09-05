@@ -1,0 +1,179 @@
+{
+	"destination":
+	{
+		"id":"55267c2b7f5c0fc9289aefa4", *
+		"name":"pureprint"
+	},
+	"orderData":
+	{
+		"sourceOrderId":"42",
+		"items":[
+			{
+				"shipmentindex":"42",
+				"sourceItemId":"123",
+				"sku":"IGO-BK-LON-HM-SB",
+				"quantity":1,
+				"unitCost":1, *
+				"unitPrice":1, *
+				"dispatchAlert":"", *
+				"totalPages":22, *
+				"productDescription":"IGO-BK-LON-HM-SB", *
+				"unitWeight":0, *
+				"printQuantity":1, *
+				"components":[
+					{
+						"code":"text",
+						"paperId":"5549d4cdce6f900f3ca0b6d3",
+						"width":216,
+						"height":216,
+						"weight":"148",
+						"simplex":false,
+						"pages":20,
+						"errorCheck":true, *
+						"duplicate":1,
+						"legacyWorkQueue":true, *
+						"infotech":true, *
+						"infotechCopies":1, *
+						"infotechPadding":1, *
+						"infotechExternal":false, *
+						"infotechImpose":false, *
+						"path":"https://oneflow-public.s3.amazonaws.com/CardSample.pdf",
+						"fetch":true,
+						"attributes":{},
+						"colour":
+						{
+							"side2":"4process",
+							"side1":"4process"
+						},
+						"finish":
+						{
+							"side2":"lammatt",
+							"side1":"lammatt"
+						},
+
+						"barcodes": *
+						[
+							{
+								"type":"datamatrix",
+								"pages":"-1",
+								"units":"mm",
+								"x":108,
+								"y":146,
+								"width":5,
+								"height":5,
+								"horizontalAnchor":"center",
+								"verticalAnchor":"middle",
+								"background":"#FFFFFF",
+								"foreground":"#000000",
+								"field":"componentBarcode",
+								"_id":"57b1ecb432c039120079b5c8",
+								"rotation":0,
+								"showText":false,
+								"verticalPadding":0.5,
+								"horizontalPadding":0.5,
+								"placeBarcode":false
+							},
+							{
+								"type":"code39",
+								"pages":"-1",
+								"units":"mm",
+								"x":108,
+								"y":214,
+								"width":45,
+								"height":2,
+								"horizontalAnchor":"center",
+								"verticalAnchor":"top",
+								"background":"#FFFFFF",
+								"foreground":"#000000",
+								"field":"itemBarcode",
+								"_id":"57b1ecb432c039120079b5c7",
+								"rotation":0,
+								"showText":false,
+								"verticalPadding":0.05,
+								"horizontalPadding":2,
+								"placeBarcode":false
+							}
+						]
+					},
+					{
+						"code":"cover",
+						"path":"https://oneflow-public.s3.amazonaws.com/CardSample.pdf",
+						"fetch":true,
+						"paperId":"5549d4cdce6f900f3ca0b6d3",
+						"width":436,
+						"height":216,
+						"weight":"324",
+						"simplex":true,
+						"pages":2,
+						"errorCheck":true,
+						"duplicate":1,
+						"legacyWorkQueue":true,
+						"infotech":false,
+						"attributes":{},
+						"colour":
+						{
+							"side2":"none",
+							"side1":"4process"
+						},
+						"finish":
+						{
+							"side2":"none",
+							"side1":"glossuv"
+						},
+						"barcodes": *
+						[
+							{
+								"type":"code39",
+								"pages":"1",
+								"units":"mm",
+								"x":50,
+								"y":0,
+								"width":45,
+								"height":2,
+								"horizontalAnchor":"left",
+								"verticalAnchor":"top",
+								"background":"#FFFFFF",
+								"foreground":"#000000",
+								"field":"itemBarcode",
+								"_id":"57b1ecb432c039120079b5c2",
+								"rotation":0,
+								"showText":false,
+								"verticalPadding":0,
+								"horizontalPadding":2,
+								"placeBarcode":false
+							}
+						]
+					}
+				],
+			}
+		],
+		"shipments":
+		[
+			{
+				"shipTo":
+				{
+					"name":"Nigel Watson",
+					"companyName":"OneFlow Systems",
+					"address1":"1 Primrose Street",
+					"town":"London",
+					"postcode":"EC2A 4EX",
+					"isoCountry":"GB",
+					"email":"info@oneflowsystems.com",
+					"phone":"02037074173"
+				},
+				"carrier":
+				{
+					"alias":"domesticstandardigo",
+					"serviceId":"57c97d369146ba7e0d68197d", *
+					"code":"royalmail",
+					"service":"24"
+				}
+			}
+		]
+	},
+	"source":
+	{
+		"name":"Igostories",
+		"id":"57960f6cae78fe610d30b070"
+	}
+}
